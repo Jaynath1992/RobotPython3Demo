@@ -16,13 +16,13 @@ Verify successful login to application
     #debug if     5==5
     ${PageTitle}=   LoginToApplication  ${USER_NAME}    ${PASSWORD}     # store the returned value from keyword in a variable
     log to console  Title of the page is : ${PageTitle}
-#
-#Verify that a new user is able to register the application successfully
-#    [Tags]  regression
-#    [Documentation]  This test case verfies the successful registration of user to the app
-#    UserRegistration
-#
-#
+
+Verify that a new user is able to register the application successfully
+    [Tags]  regression
+    [Documentation]  This test case verfies the successful registration of user to the app
+    UserRegistration
+
+
 #Get all the links from login page of the application
 #    [Documentation]  This test case extract all the links from the login page of the application
 #    [Tags]  regression
