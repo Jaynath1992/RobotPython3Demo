@@ -4,7 +4,7 @@
 
 ${BROWSER}      Chrome      # to tun in headless mode use this value headlesschrome, otherwise only chrome
 ${FF_PROFILE}   C:/Program Files/Mozilla Firefox            # Set firefox profile directory
-${LOGIN_URL}    http://newtours.demoaut.com/
+${LOGIN_URL}    http://demo.guru99.com/test/newtours/
 ${USER_NAME}    Jaynath.kumar
 ${PASSWORD}     jay12345
 
